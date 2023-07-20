@@ -1,0 +1,21 @@
+.tags {
+  flex: 1;
+}
+
+.tags h2 {
+  font-size: 2.5rem;
+  padding-bottom: 1.2rem;
+  border-bottom: 2px solid black;
+}
+
+.tags .tagContainer {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-weight: 600;
+}
+
+.tags .tagContainer a:hover {
+  color: var(--themeColor);
+}

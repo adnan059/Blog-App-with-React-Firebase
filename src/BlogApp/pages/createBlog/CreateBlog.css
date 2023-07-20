@@ -1,0 +1,55 @@
+.createBlog .container {
+  padding-top: 5rem;
+}
+
+.createBlog .container h2 {
+  text-align: center;
+}
+
+.createBlog .container form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 5rem;
+  gap: 2rem;
+}
+
+.createBlog .container form input[name="title"],
+.createBlog .container form .rti--container,
+.createBlog .container form .trendingDiv,
+.createBlog .container form select,
+.createBlog .container form textarea {
+  padding: 10px;
+  font-size: 1.6rem;
+  border: none;
+  border: 1px solid var(--themeColor);
+  outline: none;
+  border-radius: 0;
+}
+
+.createBlog .container form .trendingDiv span {
+  margin-right: 1rem;
+}
+
+.createBlog .container form .trendingDiv input {
+  margin: 0 0.6rem;
+}
+
+.createBlog .container form input[type="submit"] {
+  width: 150px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  padding: 10px 0;
+  font-size: 1.8rem;
+  font-weight: 600;
+  background-color: var(--themeColor);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.createBlog .container form input[type="submit"]:disabled {
+  background-color: skyblue;
+  color: black;
+}

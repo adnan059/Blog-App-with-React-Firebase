@@ -1,0 +1,55 @@
+.login .container {
+  text-align: center;
+}
+
+.login .container h1 {
+  margin: 5rem 0;
+  font-size: 3.5rem;
+}
+
+.login .container form {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin: 0 auto;
+  border: 1px solid var(--themeColor);
+  margin-bottom: 5rem;
+  padding: 5rem 0;
+}
+
+.login .container form input {
+  width: 70%;
+  padding: 0.8rem;
+  font-size: 1.6rem;
+}
+
+.login .container form input[type="submit"] {
+  width: 150px;
+  background-color: var(--themeColor);
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.login .container form input[type="submit"]:disabled {
+  background-color: skyblue;
+  color: black;
+}
+
+.login .container p {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.login .container .register {
+  font-weight: 600;
+  color: var(--themeColor);
+}
+
+.login .container .register:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,16 @@
+.home .container {
+  padding-top: 5rem;
+}
+
+.home .container .blogs_tags {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3rem;
+}
+
+@media (max-width: 768px) {
+  .home .container .blogs_tags {
+    flex-direction: column;
+  }
+}

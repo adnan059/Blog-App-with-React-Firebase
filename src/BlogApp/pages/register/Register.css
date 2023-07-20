@@ -1,0 +1,64 @@
+.register .container {
+  text-align: center;
+}
+
+.register .container h1 {
+  margin: 5rem 0;
+  font-size: 3.5rem;
+}
+
+.register .container form {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin: 0 auto;
+  border: 1px solid var(--themeColor);
+  margin-bottom: 5rem;
+  padding: 5rem 0;
+}
+
+.register .container form input {
+  width: 70%;
+  padding: 0.8rem;
+  font-size: 1.6rem;
+}
+
+.register .container form input[type="submit"] {
+  width: 150px;
+  background-color: var(--themeColor);
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.register .container form input[type="submit"]:disabled {
+  background-color: skyblue;
+  color: black;
+}
+
+.register .container p {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.register .container .login {
+  font-weight: 600;
+  color: var(--themeColor);
+}
+
+.register .container .login:hover {
+  text-decoration: underline;
+}
+
+.register form label {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.register form input[type="file"] {
+  display: none;
+}

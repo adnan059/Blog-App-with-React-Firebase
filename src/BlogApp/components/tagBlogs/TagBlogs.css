@@ -1,0 +1,66 @@
+.tagBlogs .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+  margin-top: 3rem;
+}
+
+.tagBlogs .container .tbBox {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.tagBlogs .container .tbBox img {
+  display: block;
+  width: 380px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.tagBlogs .container .tbBox .tbContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.tagBlogs .container .tbBox .tbContent .category {
+  background-color: var(--themeColor);
+  width: max-content;
+  padding: 5px;
+  font-size: 1.2rem;
+  color: white;
+  text-transform: capitalize;
+}
+
+.tagBlogs .container .tbBox .tbContent .title {
+  text-transform: capitalize;
+}
+
+.tagBlogs .container .tbBox .tbContent .author_date {
+  font-size: 1.3rem;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.tagBlogs .container .tbBox .tbContent .desc {
+  font-size: 1.6rem;
+  color: #666;
+}
+
+.tagBlogs .container .tbBox .tbContent .readMore {
+  color: var(--themeColor);
+  font-weight: 600;
+}
+
+.laoding {
+  height: 100vh;
+  padding: 5rem;
+}

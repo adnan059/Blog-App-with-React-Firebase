@@ -1,0 +1,15 @@
+.about .container {
+  padding-top: 5rem;
+}
+
+.about .aboutContent {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  text-align: justify;
+}
+
+.aboutContent p {
+  line-height: 1.8;
+  text-indent: 30px;
+}
