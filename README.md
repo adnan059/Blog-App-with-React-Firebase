@@ -3,7 +3,7 @@
 <a href="https://blogappbyadnan.netlify.app/" target="_blank">Live Demo</a>
 <br/>
 <p>It is blog application built with following tools</p>
-<br/>
+
 <ul>
   <li>CSS</li>
   <li>React js</li>
